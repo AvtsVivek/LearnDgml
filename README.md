@@ -23,4 +23,15 @@ Repo to do some trials to learn Directed Graph Markup Language (DGML)
 
 8. https://github.com/merijndejonge/DgmlBuilder
 
-9. 
+9. Explore Creating Stunning Visuals in C# WPF with MSAGL Easily
+   1.  https://www.youtube.com/watch?v=ku25M1iWE2g
+
+10. Aetheria: Microsoft Automatic Graph Layout is AMAZING!!!
+    1.  https://www.youtube.com/watch?v=BMzAs69OPXs
+
+11. https://help.syncfusion.com/wpf/diagram/overview
+
+12. https://www.syncfusion.com/blogs/post/visualize-custom-graph-ms-graph-layout-engine
+
+13. https://github.com/microsoft/automatic-graph-layout
+
