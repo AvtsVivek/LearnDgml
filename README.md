@@ -1,5 +1,5 @@
 # LearnDgml
-Directed Graph Markup Language (DGML)
+Repo to do some trials to learn Directed Graph Markup Language (DGML)
 
 ## Notes
 
