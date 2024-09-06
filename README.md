@@ -35,3 +35,6 @@ Repo to do some trials to learn Directed Graph Markup Language (DGML)
 
 13. https://github.com/microsoft/automatic-graph-layout
 
+14. https://github.com/clovett/CodeGraph/tree/main
+
+15. https://github.com/clovett/DependencyViewer/tree/main

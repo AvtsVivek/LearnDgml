@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="2N" Bounds="0,124.496790014024,50,25.96" />
+    <Node Id="3N" Bounds="0,68.536690014024,50,25.96" />
+    <Node Id="4N" Bounds="80.9999961853027,68.536690014024,50,25.96" />
+    <Node Id="MyFirstNode" Bounds="61.9833314259847,-43.383509985976,88.0333333333333,25.96" />
+    <Node Id="SecondNode" Bounds="32.6119321221538,12.576590014024,88.43,25.96" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="MyFirstNode" Target="3N" Bounds="23.1679286956787,-17.4235095977783,49.8258304595947,76.9647731781006" />
+    <Link Source="MyFirstNode" Target="4N" Bounds="114.462158203125,-17.4235095977783,15.4730072021484,77.5916996002197" />
+  </Links>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+</DirectedGraph>
