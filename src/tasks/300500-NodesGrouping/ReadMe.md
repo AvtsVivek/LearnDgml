@@ -25,11 +25,11 @@
 
 2. Ctrl + Click to select multiple nodes. Select d, i, j. 
 
-![Select Multiple nodes](50_50_MultiSelectNodeGroupling.jpg)
+![Select Multiple nodes](images/50_50_MultiSelectNodeGroupling.jpg)
 
 3. Name is and save it.
 
-![Add group name](51_50_GroupNaming.jpg)
+![Add group name](images/51_50_GroupNaming.jpg)
 
 4. Now observe the dgml file in vs code for text changes. A parent id is adde, three new links, and also a category.
 

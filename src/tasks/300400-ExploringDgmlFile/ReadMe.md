@@ -9,11 +9,11 @@
 
 > Use the insert key to `add a new node`.
 
-![Add new node](54_50_TheBlankNewDgml.jpg)
+![Add new node](images/54_50_TheBlankNewDgml.jpg)
 
 4. Middle click the mouse to re arrange the items. Explore creating new nodes and links as follows.
 
-![New Links and Nodes](55_50_HoverOverTheFistNode.jpg)
+![New Links and Nodes](images/55_50_HoverOverTheFistNode.jpg)
 
 5. Next open the dgml file in vs code. See commands.sh for the command. 
 
@@ -61,11 +61,11 @@ and with a link and two nodes will be as follows.
 
 9. The graph layout alogorith is built in, and its called MSAGL, Microsoft Automatic Graph Layout. 
 
-![Built in Algo](56_50_Layout_with_BuiltIn_Algo.jpg)
+![Built in Algo](images/56_50_Layout_with_BuiltIn_Algo.jpg)
 
 10. Try with different layouts.
 
-![Different Layouts available](57_50_Different_Layouts.jpg)
+![Different Layouts available](images/57_50_Different_Layouts.jpg)
 
 ## References
 1. 
