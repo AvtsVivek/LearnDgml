@@ -1,51 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph GraphDirection="TopToBottom" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+﻿<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="Parent" Bounds="-3.92087878540766,67.4905382113251,170.93856,141.85856" Group="Expanded" Label="parent" />
-    <Node Id="a" Bounds="141.016565037155,-1.83977940377432,50,25.96" Label="a" />
-    <Node Id="b" Bounds="196.920008717407,166.094981554077,50,25.96" Label="b" />
-    <Node Id="c" Bounds="83.1846585542763,239.338858416126,50,25.96" Label="c" />
-    <Node Id="d" Bounds="96.9193772145923,107.459818006525,50,25.96" Label="d" />
-    <Node Id="e" Bounds="196.920008717407,222.054984729277,50,25.96" Label="e" />
-    <Node Id="f" Bounds="197.058741009792,54.1202201866257,50,25.96" Label="f" />
-    <Node Id="g" Bounds="218.60156983013,110.076444995577,50,25.96" Label="g" />
-    <Node Id="h" Bounds="163.186806349476,277.960221005826,50,25.96" Label="h" />
-    <Node Id="i" Bounds="97.0484012145923,163.419818211325,50,25.96" Label="i" />
-    <Node Id="j" Bounds="16.0484012145923,163.419818211325,50,25.96" Label="j" />
   </Nodes>
-  <Links>
-    <Link Source="Parent" Target="d" Category="Contains" />
-    <Link Source="Parent" Target="i" Category="Contains" />
-    <Link Source="Parent" Target="j" Category="Contains" />
-    <Link Source="a" Target="b" Bounds="170.405062964643,24.1296587036791,44.4344713171428,133.381351517319" />
-    <Link Source="a" Target="d" Bounds="130.61569581713,24.1161949955766,30.2385731304918,74.9875606075531" />
-    <Link Source="a" Target="f" Bounds="179.053339970918,24.1296587036791,23.620369444135,23.6341793987741" />
-    <Link Source="b" Target="c" Bounds="135.841708534673,192.009658703679,66.0078387335718,42.5018804514785" />
-    <Link Source="b" Target="e" Bounds="222.008225841065,192.009658703679,2.8421709430404E-14,21" />
-    <Link Source="d" Target="h" Bounds="127.04821823154,133.410665013272,52.789335221677,136.154667443433" />
-    <Link Source="d" Target="i" Bounds="122.033851623535,133.421981811523,0,20.9909057617188" />
-    <Link Source="d" Target="j" Bounds="67.2463302612305,133.421981811523,36.0062103271484,24.8735656738281" />
-    <Link Source="e" Target="h" Bounds="200.639814900244,247.969658703679,13.5070817972737,22.3018167191914" />
-    <Link Source="f" Target="b" Bounds="216.738220214844,80.0896606445313,4.05496215820313,77.0893249511719" />
-    <Link Source="f" Target="g" Bounds="227.014373121934,80.0896587036791,8.33183850457976,21.6028929477791" />
-    <Link Source="f" Target="h" Bounds="187.382568359375,80.0896606445313,29.4903869628906,188.88037109375" />
-    <Link Source="g" Target="b" Bounds="230.252982878225,136.049658703679,8.33183850457971,21.6028929477787" />
-    <Link Source="i" Target="c" Bounds="112.11649481347,189.370665013272,7.52528371314753,41.1469425628738" />
-  </Links>
+<Links>
+    <Link Source="a" Target="b" />
+    <Link Source="b" Target="c" />    
+    <Link Source="b" Target="e" />    
+    <Link Source="a" Target="f" />    
+    <Link Source="f" Target="g" />    
+    <Link Source="f" Target="h" />    
+    <Link Source="a" Target="d" />    
+    <Link Source="d" Target="i" />    
+    <Link Source="d" Target="j" />
+    <Link Source="f" Target="b" />
+    <Link Source="g" Target="b" />    
+    <Link Source="e" Target="h" />    
+    <Link Source="i" Target="c" />    
+    <Link Source="d" Target="h" />
+</Links> 
   <Categories>
-    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
   </Categories>
-  <Properties>
-    <Property Id="Bounds" DataType="System.Windows.Rect" />
-    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
-    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
-    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
-    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
-    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
-    <Property Id="IsContainment" DataType="System.Boolean" />
-    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
-    <Property Id="Layout" DataType="System.String" />
-    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
-    <Property Id="ZoomLevel" DataType="System.String" />
-  </Properties>
 </DirectedGraph>

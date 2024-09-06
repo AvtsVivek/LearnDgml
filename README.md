@@ -38,3 +38,7 @@ Repo to do some trials to learn Directed Graph Markup Language (DGML)
 14. https://github.com/clovett/CodeGraph/tree/main
 
 15. https://github.com/clovett/DependencyViewer/tree/main
+    
+16. Virtual Canvas
+    1. https://github.com/clovett/VirtualCanvas
+    2. https://www.youtube.com/watch?v=8QurCVeC9wc
