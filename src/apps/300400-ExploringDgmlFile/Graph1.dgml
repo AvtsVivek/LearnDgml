@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="BottomToTop" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="a" Bounds="106,279.8,50,25.96" Label="a" />
+    <Node Id="b" Bounds="194,111.92,50,25.96" Label="b" />
+    <Node Id="c" Bounds="113,55.96,50,25.96" Label="c" />
+    <Node Id="d" Bounds="50,167.88,50,25.96" Label="d" />
+    <Node Id="e" Bounds="194,55.96,50,25.96" Label="e" />
+    <Node Id="f" Bounds="218,223.84,50,25.96" Label="f" />
+    <Node Id="g" Bounds="162,167.88,50,25.96" Label="g" />
+    <Node Id="h" Bounds="194,0,50,25.96" Label="h" />
+    <Node Id="i" Bounds="113,111.92,50,25.96" Label="i" />
+    <Node Id="j" Bounds="32,111.92,50,25.96" Label="j" />
+  </Nodes>
+  <Links>
+    <Link Source="a" Target="b" Bounds="131,142.709426879883,59.9937591552734,137.090560913086" />
+    <Link Source="a" Target="d" Bounds="84.1142501831055,202.111389160156,39.4633026123047,77.6885986328125" />
+    <Link Source="a" Target="f" Bounds="155.153839111328,252.910919189453,55.6413269042969,27.80078125" />
+    <Link Source="b" Target="c" Bounds="164.192794799805,87.0356597900391,36.0191497802734,24.8843383789063" />
+    <Link Source="b" Target="e" Bounds="219,90.9199981689453,0,21" />
+    <Link Source="d" Target="h" Bounds="1,21.6351566314697,184.282623291016,146.244848251343" />
+    <Link Source="d" Target="i" Bounds="89.6129379272461,143.856887817383,27.0453186035156,24.0231170654297" />
+    <Link Source="d" Target="j" Bounds="63.9309921264648,146.447677612305,6.89388275146484,21.4323272705078" />
+    <Link Source="e" Target="h" Bounds="219,34.9599990844727,0,21" />
+    <Link Source="f" Target="b" Bounds="228.114242553711,146.151382446289,14.8857574462891,77.6886138916016" />
+    <Link Source="f" Target="g" Bounds="206.355514526367,200.201690673828,23.6552124023438,23.6383056640625" />
+    <Link Source="f" Target="h" Bounds="238.355514526367,32.3216857910156,36.6444854736328,191.518310546875" />
+    <Link Source="g" Target="b" Bounds="194.422439575195,145.692810058594,12.6874542236328,22.1871948242188" />
+    <Link Source="i" Target="c" Bounds="138,90.9199981689453,0,21" />
+  </Links>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+</DirectedGraph>

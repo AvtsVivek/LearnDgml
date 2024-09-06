@@ -16,7 +16,7 @@
 
 4. Now open Visual Studio 2022
    1. Create a new C# console application
-   2. Add a new dgml file to that project.
+   2. Add a new dgml file to that project. `Ctrl + Shift + A`
    3. 
 
 ![Add new dgml file to the project](52_50_AddNewItem.jpg)
