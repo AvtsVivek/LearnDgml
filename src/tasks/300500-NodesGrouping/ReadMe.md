@@ -23,7 +23,7 @@
 </Links> 
 ```
 
-2. From visual studio 2022, Ctrl + Click to select multiple nodes. Select d, i, j. 
+2. From visual studio 2022, Ctrl + Click to select multiple nodes. Select d, i, j. Group them as follows.
 
 ![Select Multiple nodes](images/50_50_MultiSelectNodeGroupling.jpg)
 

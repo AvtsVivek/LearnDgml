@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="a" Category="Category2" Bounds="106,0,50,25.96" Label="a" />
+    <Node Id="b" Bounds="194,167.88,50,25.96" Label="b" />
+    <Node Id="c" Bounds="113,223.84,50,25.96" Label="c" />
+    <Node Id="d" Bounds="50,111.92,50,25.96" Label="d" />
+    <Node Id="e" Category="Category2" Bounds="194,223.84,50,25.96" Label="e" />
+    <Node Id="f" Bounds="218,55.96,50,25.96" Label="f" />
+    <Node Id="g" Category="Category2" Bounds="162,111.92,50,25.96" Label="g" />
+    <Node Id="h" Bounds="194,279.8,50,25.96" Label="h" />
+    <Node Id="i" Bounds="113,167.88,50,25.96" Label="i" />
+    <Node Id="j" Bounds="31.9999999999999,167.88,50,25.96" Label="j" />
+  </Nodes>
+  <Links>
+    <Link Source="a" Target="b" Bounds="131,25.9599990844727,59.9937591552734,137.09058380127" />
+    <Link Source="a" Target="d" Bounds="84.1142501831055,25.9599990844727,39.4633026123047,77.6886138916016" />
+    <Link Source="a" Target="f" Bounds="155.153839111328,25.0482940673828,55.6413269042969,27.8007888793945" />
+    <Link Source="b" Target="c" Bounds="164.192794799805,193.839996337891,36.0191497802734,24.8843383789063" />
+    <Link Source="b" Target="e" Bounds="219,193.839996337891,0,21" />
+    <Link Source="d" Target="h" Bounds="1,137.880004882813,184.282623291016,146.244842529297" />
+    <Link Source="d" Target="i" Bounds="89.6129379272461,137.880004882813,27.0453186035156,24.0231018066406" />
+    <Link Source="d" Target="j" Bounds="63.9309921264648,137.880004882813,6.89388275146484,21.4323120117188" />
+    <Link Source="e" Target="h" Bounds="219,249.800003051758,0,20.9999847412109" />
+    <Link Source="f" Target="b" Bounds="228.114242553711,81.9199981689453,14.8857574462891,77.6886138916016" />
+    <Link Source="f" Target="g" Bounds="206.355514526367,81.9199981689453,23.6552124023438,23.638313293457" />
+    <Link Source="f" Target="h" Bounds="238.355514526367,81.9199981689453,36.6444854736328,191.518325805664" />
+    <Link Source="g" Target="b" Bounds="194.422439575195,137.880004882813,12.6874542236328,22.1871795654297" />
+    <Link Source="i" Target="c" Bounds="138,193.839996337891,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="Category2" Label="tree" Background="#FF339933" IsTag="True" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="tree" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="Red" />
+    </Style>
+  </Styles>
+</DirectedGraph>
