@@ -68,6 +68,11 @@ And a style is also added to the category as follows.
 
 ![Add Legend](images/54_50_ChangeCategoryLabel.jpg)
 
+6. Select any node, then open its property window(Ctrl + W, P or View -> Property window)
+
+![Add property window](images/55_50_PropertyWindow.jpg)
+
+7. 
 
 ## References
-1. https://youtu.be/wIjCdOrZj-I?t=260
+1. https://youtu.be/wIjCdOrZj-I?t=305
