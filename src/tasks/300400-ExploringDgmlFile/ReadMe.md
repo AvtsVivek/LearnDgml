@@ -1,7 +1,7 @@
 # Exploring dgml file.
 
 ## Notes
-1. Executes the commands in the commands.sh file, to open the project file.
+1. Execute the commands in the commands.sh file, to open the solution file `ExploringDgmlFile` using visual studio 2022.
 
 2. Add a new dgml file.
 
