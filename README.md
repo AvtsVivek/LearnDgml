@@ -42,3 +42,11 @@ Repo to do some trials to learn Directed Graph Markup Language (DGML)
 16. Virtual Canvas
     1. https://github.com/clovett/VirtualCanvas
     2. https://www.youtube.com/watch?v=8QurCVeC9wc
+
+17. https://scottplot.net/
+    1. https://github.com/ScottPlot
+    2. https://scottplot.net/quickstart/wpf/
+    3. https://scottplot.net/cookbook/5.0/
+    4. https://www.nuget.org/profiles/ScottPlot
+
+19. 
