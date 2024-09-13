@@ -49,4 +49,4 @@ Repo to do some trials to learn Directed Graph Markup Language (DGML)
     3. https://scottplot.net/cookbook/5.0/
     4. https://www.nuget.org/profiles/ScottPlot
 
-19. 
+19. https://github.com/varon/GLGraph
